@@ -22,6 +22,7 @@ function App() {
     <div>
       <h1>Il valore è: {isOn ? "ON" : "OFF"}</h1>
 
+      {/* Bottone per cambiare il valore */}
       <button onClick={toggle}>Cambia Stato</button>
     </div>
   );

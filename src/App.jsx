@@ -43,7 +43,7 @@ Cosa deve fare?
 function App() {
   const [isOn, toggle] = useSwitch(false);
   const currentDate = useDate();
-  const customPointer = useCustomPointer(<span>🚀</span>);
+  const customPointer = useCustomPointer("🔥");
 
   return (
     <>
